@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luxplanjay/webpack-starter-kit.git"
+    "url": "git+https://github.com/Julia-itcourse/goit-js-hw-10-food-service"
   },
   "keywords": [],
   "author": "Julia Artemenko <julia.zakharenko@hotmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/luxplanjay/webpack-starter-kit/issues"
+    "url": "https://github.com/Julia-itcourse/goit-js-hw-10-food-service"
   },
   "homepage": "https://github.com/Julia-itcourse/goit-js-hw-10-food-service",
   "devDependencies": {
