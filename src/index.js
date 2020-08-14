@@ -25,10 +25,10 @@ const body = document.querySelector('body');
 checkBox.addEventListener('click', () => {
   if (checkBox.checked) {
     body.classList.add('dark-theme');
-    localStorage.setItem('isChecked', true);
+    saveData('isChecked', true);
   } else {
     body.classList.remove('dark-theme');
-    localStorage.setItem('isChecked', false);
+    saveData('isChecked', false);
   }
 });
 
@@ -36,3 +36,7 @@ checkBox.checked = localStorage.getItem('isChecked') === 'true';
 checkBox.checked
   ? body.classList.add('dark-theme')
   : body.classList.remove('dark-theme');
+
+let saveData = (key, data) => {
+  localStorage.setItem(key, data);
+};
